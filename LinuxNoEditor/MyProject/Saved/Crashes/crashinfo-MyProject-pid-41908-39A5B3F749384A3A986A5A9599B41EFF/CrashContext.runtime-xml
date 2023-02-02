@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+<RuntimeProperties>
+<CrashVersion>3</CrashVersion>
+<ExecutionGuid>BA8FFB035D56474794F551C25856FD16</ExecutionGuid>
+<CrashGUID>UE4CC-Linux-3C95132B2D4841629FF0A8ED72CAF7DF_0000</CrashGUID>
+<IsEnsure>false</IsEnsure>
+<IsAssert>false</IsAssert>
+<CrashType>Crash</CrashType>
+<ErrorMessage>Caught signal 11 Segmentation fault</ErrorMessage>
+<CrashReporterMessage></CrashReporterMessage>
+<ProcessId>41908</ProcessId>
+<SecondsSinceStart>4965</SecondsSinceStart>
+<IsInternalBuild>false</IsInternalBuild>
+<IsPerforceBuild>false</IsPerforceBuild>
+<IsSourceDistribution>false</IsSourceDistribution>
+<GameName>UE4-MyProject</GameName>
+<ExecutableName>MyProject</ExecutableName>
+<BuildConfiguration>Development</BuildConfiguration>
+<GameSessionID></GameSessionID>
+<Symbols>**UE4*Release-4.27-CL-0-Linux-Development</Symbols>
+<PlatformName>LinuxNoEditor</PlatformName>
+<PlatformNameIni>Linux</PlatformNameIni>
+<EngineMode>Game</EngineMode>
+<EngineModeEx>Unset</EngineModeEx>
+<DeploymentName></DeploymentName>
+<EngineVersion>4.27.2-0+++UE4+Release-4.27</EngineVersion>
+<CommandLine> MyProject -AudioMixer -PixelStreamingIP=localhost -PixelStreamingPort=8888</CommandLine>
+<LanguageLCID>0</LanguageLCID>
+<AppDefaultLocale>en_US_POSIX</AppDefaultLocale>
+<BuildVersion>++UE4+Release-4.27-CL-0</BuildVersion>
+<IsUE4Release>false</IsUE4Release>
+<IsRequestingExit>false</IsRequestingExit>
+<UserName></UserName>
+<BaseDir>/home/azureuser/Documents/Unreal Projects/MyProject/LinuxNoEditor/MyProject/Binaries/Linux/</BaseDir>
+<RootDir>/home/azureuser/Documents/Unreal Projects/MyProject/LinuxNoEditor/</RootDir>
+<MachineId>DF5BB2658A544E0087E34F3FD09985EE-000003E8</MachineId>
+<LoginId>df5bb2658a544e0087e34f3fd09985ee-000003e8</LoginId>
+<EpicAccountId></EpicAccountId>
+<SourceContext></SourceContext>
+<UserDescription></UserDescription>
+<UserActivityHint></UserActivityHint>
+<CrashDumpMode>0</CrashDumpMode>
+<GameStateName></GameStateName>
+<Misc.NumberOfCores>12</Misc.NumberOfCores>
+<Misc.NumberOfCoresIncludingHyperthreads>12</Misc.NumberOfCoresIncludingHyperthreads>
+<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+<Misc.CPUBrand>Intel(R) Xeon(R) CPU E5-2690 v3 @ 2.60GHz</Misc.CPUBrand>
+<Misc.PrimaryGPUBrand>GenericGPUBrand</Misc.PrimaryGPUBrand>
+<Misc.OSVersionMajor>GenericOSVersionLabel</Misc.OSVersionMajor>
+<Misc.OSVersionMinor>GenericOSSubVersionLabel</Misc.OSVersionMinor>
+<MemoryStats.TotalPhysical>118149873664</MemoryStats.TotalPhysical>
+<MemoryStats.TotalVirtual>0</MemoryStats.TotalVirtual>
+<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+<MemoryStats.TotalPhysicalGB>111</MemoryStats.TotalPhysicalGB>
+<MemoryStats.AvailablePhysical>96349364224</MemoryStats.AvailablePhysical>
+<MemoryStats.AvailableVirtual>0</MemoryStats.AvailableVirtual>
+<MemoryStats.UsedPhysical>18169597952</MemoryStats.UsedPhysical>
+<MemoryStats.PeakUsedPhysical>18169597952</MemoryStats.PeakUsedPhysical>
+<MemoryStats.UsedVirtual>178785939456</MemoryStats.UsedVirtual>
+<MemoryStats.PeakUsedVirtual>178785939456</MemoryStats.PeakUsedVirtual>
+<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+<NumMinidumpFramesToIgnore>0</NumMinidumpFramesToIgnore>
+<CallStack></CallStack>
+<PCallStack>
+     MyProject 0x0000000000200000 + 31d7ee2         
+     MyProject 0x0000000000200000 + 31d698e         
+     MyProject 0x0000000000200000 + 31d6907         
+     MyProject 0x0000000000200000 + 3191fcc         
+     MyProject 0x0000000000200000 + 8e59974         
+     MyProject 0x0000000000200000 + 8e58c25         
+     MyProject 0x0000000000200000 + 8e5c51e         
+     MyProject 0x0000000000200000 + 8ee6ddb         
+     MyProject 0x0000000000200000 + 8ee8b6e         
+     MyProject 0x0000000000200000 + 8ee6c8b         
+     MyProject 0x0000000000200000 + 8c8099b         
+ libpthread.so 0x00007ff85eca0000 + 76db            
+       libc.so 0x00007ff85d947000 + 12161f          
+</PCallStack>
+<PCallStackHash>2FA052FCAC26687338A7037D4179B1C7017ED1EB</PCallStackHash>
+</RuntimeProperties>
+<PlatformProperties>
+<CrashSignal>11</CrashSignal>
+<CrashSignalName>Segmentation fault</CrashSignalName>
+<PlatformCallbackResult>0</PlatformCallbackResult>
+</PlatformProperties>
+<EngineData>
+<RHI.RHIName>Vulkan</RHI.RHIName>
+<RHI.AdapterName>Tesla K80</RHI.AdapterName>
+<RHI.UserDriverVersion>470.161</RHI.UserDriverVersion>
+<RHI.FeatureLevel>SM5</RHI.FeatureLevel>
+<DeviceProfile.Name>LinuxNoEditor</DeviceProfile.Name>
+</EngineData>
+<GameData>
+</GameData>
+</FGenericCrashContext>

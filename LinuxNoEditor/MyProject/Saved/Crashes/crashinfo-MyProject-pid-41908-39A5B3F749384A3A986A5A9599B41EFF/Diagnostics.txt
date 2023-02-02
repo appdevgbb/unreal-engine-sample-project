@@ -1,0 +1,32 @@
+Generating report for minidump
+
+Application version 4.27.2.0
+ ... built from changelist 0
+
+OS version Linux 5.4.0-1101-azure (network name: gbbpixeldev)
+Running 12 x86_64 processors (12 logical cores)
+Exception was "SIGSEGV: invalid attempt to write memory at address 0x0000000000000000"
+
+<SOURCE START>
+<SOURCE END>
+
+<CALLSTACK START>
+MyProject!UnknownFunction(0x31d7ee2)
+MyProject!UnknownFunction(0x31d698d)
+MyProject!UnknownFunction(0x31d6906)
+MyProject!UnknownFunction(0x3191fcb)
+MyProject!UnknownFunction(0x8e59973)
+MyProject!UnknownFunction(0x8e58c24)
+MyProject!UnknownFunction(0x8e5c51d)
+MyProject!UnknownFunction(0x8ee6dda)
+MyProject!UnknownFunction(0x8ee8b6d)
+MyProject!UnknownFunction(0x8ee6c8a)
+MyProject!UnknownFunction(0x8c8099a)
+libpthread.so.0!UnknownFunction(0x76da)
+libc.so.6!clone(+0x3e)
+
+<CALLSTACK END>
+
+0 loaded modules
+
+Report end!
